@@ -18,7 +18,7 @@ class Program
         {
             Console.WriteLine($"{student.Id}: {student.Name} {student.Surname} - AvgPoint: {student.AvgPoint}");
         }
-        int studentIdToDelete = 1; // replace with the desired student id
+        int studentIdToDelete = 1;
         studentService.Delete(studentIdToDelete);
     }
 }
